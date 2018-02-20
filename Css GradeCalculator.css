@@ -1,0 +1,26 @@
+table:first-of-type td:nth-child(2) input{
+    width:400px;
+}
+
+body{
+    text-align: center;
+    background-color: powderblue;
+}
+
+#goodTable{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+#goodTable2{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+div img{
+    width:262px;
+    height:176px;
+
+}
+

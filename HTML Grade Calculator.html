@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="Css GradeCalculator.css "/>
+    <script src="JavaScript GradeCalculator.js "></script>
+</head>
+<body>
+<a href="https://www.khanacademy.org/">   <img src = "http://bunkiechamber.net/sites/default/files/Education.jpg"></a>
+<div id= "goodTable" >
+<h1>The Grade Calculator</h1>
+<table border=”10” cellspacing=”15” cellpadding=”5”>
+        <tr>
+            <th>Type</th>
+            <th>Points</th>
+            <th>Weight</th>
+        </tr>
+        <tr id="hwcolor">
+            <td>Homework</td>
+            <td><input type="text" id="HomeworkPoints" value="80,90,100" ></td>
+            <td><input type="text" id="Homework" value="25" ></td>
+        </tr>
+
+
+        </tr>
+        <tr id = "assesscolor">
+            <td>Assesments</td>
+            <td><input type="text" id="AssessmentPoints" value="80,90,100""></td>
+            <td><input type="text" id="Assessments" value="40" ></td>
+        </tr>
+    </tr>
+    <tr id = "particicolor">
+        <td>Participation</td>
+        <td><input type="text" id="ParticipationPoints" value="80,90,100""></td>
+        <td><input type="text" id="Participation" value="40" ></td>
+    </tr>
+    </tr>
+    <tr id = "cwcolor">
+        <td>Classwork</td>
+        <td><input type="text" id="ClassworkPoints" value="80,90,100""></td>
+        <td><input type="text" id="Classwork" value="40" ></td>
+    </tr>
+    </table>
+</div>
+    <button id="button" onclick="gradeCalculator()">CALCULATE</button>
+<br>
+<br>
+<div id = "goodTable2">
+<div id = "getGrade"></div>
+<table border=”1” cellspacing=”2” cellpadding=”5”>
+    <tr>
+        <th>Grade You Want</th>
+        <th>Weight of Final</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="final" value="80" size="25"></td>
+        <td><input type="text" id="finalWeight" value="25" size="25"></td>
+    </tr>
+    <tr>
+</table>
+<button id="button2" onclick="getFinalGrade()">CALCULATE</button>
+<div id = "done"></div>
+</div>
+
+<div id = "image"></div>
+
+<h5><i>If you need help with your studies,       just click the picture of the book!</i></h5>
+
+</body>
+</html>
+
+
+
+
